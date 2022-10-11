@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/veilromusic/static/css/main.371f96b6.css",
-    "main.js": "/veilromusic/static/js/main.31082abb.js",
+    "main.js": "/veilromusic/static/js/main.69220dfb.js",
     "static/media/silver.png": "/veilromusic/static/media/silver.c2d9361992c3f202e42c.png",
     "static/media/better.mp3": "/veilromusic/static/media/better.1f309010e8ff9160dc80.mp3",
     "static/media/atfs0.6.mp3": "/veilromusic/static/media/atfs0.6.c720174977890f8d90d3.mp3",
@@ -15,10 +15,10 @@
     "static/media/itunes.jpg": "/veilromusic/static/media/itunes.5ad0769584c07a9c2e56.jpg",
     "index.html": "/veilromusic/index.html",
     "main.371f96b6.css.map": "/veilromusic/static/css/main.371f96b6.css.map",
-    "main.31082abb.js.map": "/veilromusic/static/js/main.31082abb.js.map"
+    "main.69220dfb.js.map": "/veilromusic/static/js/main.69220dfb.js.map"
   },
   "entrypoints": [
     "static/css/main.371f96b6.css",
-    "static/js/main.31082abb.js"
+    "static/js/main.69220dfb.js"
   ]
 }
