@@ -11,7 +11,7 @@
     "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "homepage": "https://veilro.github.io/veilromusic",
+    "homepage": "https://veilro.github.io",
     "react-scripts": "5.0.1",
     "save-dev": "^0.0.1-security",
     "web-vitals": "^2.1.4"
