@@ -21,6 +21,7 @@ export default function App() {
       <Routes>
           <Route path="/" element={<Layout/>}>
           <Route index element={<About/>} />
+          <Route path="about" element={<About/>} />
           <Route path="completed" element={<Completed/>} />
           <Route path="unfinished" element={<Unfinished/>} />
           <Route path="contact" element={<Contact/>} />
