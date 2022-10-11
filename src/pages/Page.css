@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+audio {
+    width: fit-content;
+    height: fit-content;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+div[class='card'] {
+    font-family: 'Allerta Stencil';
+    /* border-style:solid;
+    border-radius: 15px;
+    border-color: black; */
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    margin: 17px;
+    width: 200px;
+    height: 275px;
+}
+
+.centrediv {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    /* width: 50%; */
+    /* height: 50%; */
+    /* height: 100vh; */
+    padding: 5px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.formbutton {
+    background-color: plum;
+    
+}
+
+.centrefill {
+    flex: 1;
+    overflow: auto;
+    background-color: aqua;
+}
+
+.cardimg{
+    width:200px; 
+    height:200px;
+}
+
+div[class='textdesc'] {
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    margin: 17px;
+    width: 340px;
+    height: 275px;
+}
+
+div[class='store'] {
+    width: 50px;
+    height: 50px;
+    background-color:rgb(164, 243, 240);
+    align-items: left;
+}
+
+div[class='empty'] {
+    width: 50px;
+    height: 50px;
+    background-color:rgb(255, 255, 255);
+    align-items: left;
+}
+
+.readmore {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    max-width: 48em;
+    align-items: left;
+    text-align: left;
+}
+
+.backimg {
+	background-image: url("../assets/music.png");
+	/* background-color: aquamarine; */
+	/* width: 20%; */
+	height: 100%;
+    /* align-items: left; */
+}
+
+
+.grid-container {
+    /* width: 200px;
+    height: 200px; */
+    /* align-self: center; */
+    /* justify-content: center; */
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0px;
+  }
+  
+
+
+.flexbox-column {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.storebox {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 0px;
+    padding-top: 22px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* width: 200px; */
+    height: 100px;
+}
+
+div[class='store']:hover {
+    background-color:rgb(164, 243, 176);
+}
+
+.flexbox-row {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.songtitle{
+    display: flex;
+    width: 190px;
+    height: 55px;
+    /* line-height: 60px; */
+    padding-bottom: 0.2em;
+    /* padding-top: 0.em; */
+    /* padding-left: 4px; */
+    margin: auto;
+    /* padding-right: 0px; */
+    font-weight:bolder;
+    /* font-size: 1.3vw; */
+    /* border-style:solid;
+    border-radius: 15px;
+    border-color: black; */
+    /* background-color:rgb(220, 220, 220); */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* vertical-align:middle; */
+}
+
+/* .songtitle:hover{
+    background-color:rgb(128, 207, 141);
+
+} */
+
+div[class='card']:hover {
+    background-color:rgb(164, 243, 240);
+}
+
+.flattext {
+    width: 100%;
+}
+
+.unfintitle {
+    /* background-color: #CC79A7; */
+    border-style: solid;
+    border-color: #000000;
+    border-radius: 6px;
+    color: #000000;
+    box-sizing: border-box;
+    /* color: #CC79A7; */
+    display: block;
+    height: 50px;
+    
+    font-size: 1.4em;
+    font-weight: 600;
+    padding: 4px;
+    padding-top: 7px;
+
+    /* position: relative; */
+    width: 300px;
+    z-index: 2;
+  }
+
+.bn39 {
+    background-color: #CC79A7;
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: #CC79A7;
+    display: block;
+    height: 50px;
+    font-size: 1.4em;
+    font-weight: 600;
+    padding: 4px;
+    position: relative;
+    text-decoration: none;
+    width: 7em;
+    z-index: 2;
+  }
+  
+  .bn39:hover {
+    color: #fff;
+  }
+  
+  .bn39 .bn39span {
+    align-items: center;
+    background: #ffffff;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    transition: 0.2s ease;
+    width: 100%;
+  }
+  
+  .bn39:hover .bn39span {
+    background: transparent;
+  }
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.wrapper {
+  font-family: "Poppins", sans-serif;
+  display: inline-flex;
+  list-style: none;
+}
+
+.wrapper .icon {
+  position: relative;
+
+  background: #ffffff;
+  border-radius: 50%;
+  padding: 0.5px;
+  margin: 15px;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+/* .wrapper .twitter {
+  background-image: url(../assets/twitter.png);
+} */
+
+.wrapper .twitter:hover,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before {
+  background: #1DA1F2;
+  /* background-image: url(../assets/twitter.png); */
+
+  color: #ffffff;
+}
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+  background: #E4405F;
+  color: #ffffff;
+}
+
+.wrapper .youtube:hover,
+.wrapper .youtube:hover .tooltip,
+.wrapper .youtube:hover .tooltip::before {
+  background: #CD201F;
+  color: #ffffff;
+}
