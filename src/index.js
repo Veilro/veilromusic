@@ -1,6 +1,6 @@
 // import React from 'react';
 // import ReactDOM from 'react-dom/client';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 // const myFirstElement = <h1>Hello React!</h1>
 
@@ -17,17 +17,17 @@ import NoPage from "./pages/NoPage";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
-          <Route path="/" element={<Layout/>}>
-          <Route index element={<About/>} />
+          <Route path="/" element={<About/>}>
+          <Route index element={<Layout/>} />
           <Route path="completed" element={<Completed/>} />
           <Route path="unfinished" element={<Unfinished/>} />
           <Route path="contact" element={<Contact/>} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
