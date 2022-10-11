@@ -19,7 +19,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-          <Route path="/" element={<Layout/>}>
+          <Route path="/about" element={<About/>}>
           <Route index element={<About/>} />
           <Route path="completed" element={<Completed/>} />
           <Route path="unfinished" element={<Unfinished/>} />
