@@ -15,7 +15,7 @@ const Layout = () => {
       <nav>
       <ul className="navbar">
           <li>
-            <Link to="/">About</Link>
+            <Link to="/about">About</Link>
           </li>
           <li>
             <Link to="/completed">My Music</Link>
